@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# 保持 userscript 原始字节（CRLF），与已实测的 sha256 一致
+*.user.js -text
