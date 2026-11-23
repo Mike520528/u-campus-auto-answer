@@ -91,3 +91,7 @@ git clone https://github.com/Mike520528/u-campus-auto-answer ~/.agents/skills/u-
 版本 0.3.2。已在本机实测：Vocabulary Exercise 1/2、Banked cloze、Reading comprehension、Translation、Task 改写六类页面全部识别正确，25 处作答值与注入值逐项一致（5/5、7/7、5/5、3/3、6/6）。
 
 **未验证**：真实提交后的判分结果、跨页签连续自动遍历、DeepSeek 接口在同学机器上的连通性。
+
+## 关于 `@namespace`
+
+脚本头部写的是 `https://github.com/nai-xu/u-campus-auto-answer`，是本仓库的早期地址。脚本猫用「`@name` + `@namespace`」生成脚本 UUID，改这个值会让升级变成「另装一个新脚本」。所以这里保持原值不动——如果你之前在别的地址（比如从安装包）装过同名脚本，两者会并存，删掉旧的那个即可。
